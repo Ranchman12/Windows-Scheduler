@@ -1,6 +1,6 @@
 # Windows-Scheduler
-A CMD program written in C that launches processes for x amount of seconds and displays which processor the processes is on
- this is done by using Windows API's
+A CMD program written in C that launches processes for x amount of seconds and displays which processor the processes is on.
+ the "scheduling" is done by using Windows API's
 
 compile and use scheduler.exe in a CMD window (in the same directory as the other files)
 
@@ -13,4 +13,6 @@ compile and use scheduler.exe in a CMD window (in the same directory as the othe
   
   scheduler 0 5 10 15
   
-  should launch a process for 5 seconds, 10 seconds, and 15 seconds
+  should launch a process for 5 seconds, 10 seconds, and 15 seconds in that order
+  
+  you can launch task manager and change the affinity masks as well
